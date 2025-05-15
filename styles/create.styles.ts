@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
     fontWeight: "600",
   },
   shareTextDisabled: {
-    color: COLORS.grey,
+    color: COLORS.gray,
   },
   emptyImageContainer: {
     flex: 1,
@@ -53,7 +53,7 @@ export const styles = StyleSheet.create({
     gap: 12,
   },
   emptyImageText: {
-    color: COLORS.grey,
+    color: COLORS.gray,
     fontSize: 16,
   },
   content: {
