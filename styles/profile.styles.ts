@@ -67,7 +67,7 @@ export const styles = StyleSheet.create({
   },
   statLabel: {
     fontSize: 13,
-    color: COLORS.grey,
+    color: COLORS.gray,
   },
 
   name: {
@@ -141,7 +141,7 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
   },
   inputLabel: {
-    color: COLORS.grey,
+    color: COLORS.gray,
     marginBottom: 8,
     fontSize: 14,
   },
@@ -219,7 +219,7 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   noPostsText: {
-    color: COLORS.grey,
+    color: COLORS.gray,
     fontSize: 16,
   },
   centered: {

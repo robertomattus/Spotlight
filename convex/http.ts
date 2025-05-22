@@ -5,9 +5,9 @@ import { api } from "./_generated/api";
 
 const http = httpRouter();
 
-// 1. need to make sure to add the webhook event is coming from clerk
-// 2. if so, listen for the user.created event
-// 3. save the user to the database
+// 1- we need to make sure that the webhook event is coming from Clerk
+// 2- if so, we will listen for the "user.created" event
+// 3- we will save the user to the database
 
 http.route({
   path: "/clerk-webhook",

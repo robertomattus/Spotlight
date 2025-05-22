@@ -28,38 +28,34 @@ export default function TabLayout() {
           ),
         }}
       />
-
       <Tabs.Screen
         name="bookmarks"
         options={{
-          tabBarIcon: ({ size, color }) => (
-            <Ionicons name="bookmarks" size={size} color={color} />
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="bookmark" size={size} color={color} />
           ),
         }}
       />
-
       <Tabs.Screen
         name="create"
         options={{
-          tabBarIcon: ({ size, color }) => (
+          tabBarIcon: ({ size }) => (
             <Ionicons name="add-circle" size={size} color={COLORS.primary} />
           ),
         }}
       />
-
       <Tabs.Screen
         name="notifications"
         options={{
-          tabBarIcon: ({ size, color }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons name="heart" size={size} color={color} />
           ),
         }}
       />
-
       <Tabs.Screen
         name="profile"
         options={{
-          tabBarIcon: ({ size, color }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons name="person-circle" size={size} color={color} />
           ),
         }}

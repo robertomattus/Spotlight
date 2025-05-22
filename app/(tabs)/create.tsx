@@ -107,7 +107,7 @@ export default function CreateScreen() {
       keyboardVerticalOffset={Platform.OS === "ios" ? 100 : 0}
     >
       <View style={styles.contentContainer}>
-        {/* header */}
+        {/* HEADER */}
         <View style={styles.header}>
           <TouchableOpacity
             onPress={() => {

@@ -67,12 +67,12 @@ export const styles = StyleSheet.create({
     marginBottom: 2,
   },
   action: {
-    color: COLORS.grey,
+    color: COLORS.gray,
     fontSize: 14,
     marginBottom: 2,
   },
   timeAgo: {
-    color: COLORS.grey,
+    color: COLORS.gray,
     fontSize: 12,
   },
   postImage: {
