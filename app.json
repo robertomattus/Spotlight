@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "spotlight",
-    "slug": "spotlight",
+    "name": "InstaClone",
+    "slug": "InstaClone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "spotlight",
+    "scheme": "InstaClone",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
