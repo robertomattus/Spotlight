@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 18,
-    backgroundColor: "rgba(74, 222, 128, 0.15)",
+    backgroundColor: "rgba(255, 255, 255, 0.26)",
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 20,
